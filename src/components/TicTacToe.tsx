@@ -39,6 +39,7 @@ const TicTacToeGame = () => {
   };
 
   const movesList = history.map((item, move) => {
+    console.log("item", item);
     let description = "";
     if (move > 0) {
       description = `Go to move ${move}`;
